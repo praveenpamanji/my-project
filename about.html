@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+        }
+        body {
+          overflow-x: hidden;
+          font-family: "Poppins", sans-serif;
+        }
+        .section_1 {
+          width: 100%;
+          height: 100vh;
+          background-image: url(./images/tm-astro-bg.jpg);
+          background-size: 100% 100%;
+        }
+        .nav {
+          width: 100%;
+          height: 50px;
+          display: flex;
+          justify-content: space-between;
+          color: white;
+        }
+        .list {
+        width: 50%;
+        height: 50px;
+      }
+      .list ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      ul li {
+        position: relative;
+        width: 6em;
+        text-align: center;
+        list-style: none;
+        padding: 0.4em;
+        border-bottom: 2px solid white;
+      }
+      li a {
+        text-decoration: none;
+        color: white;
+      }
+      .cir {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 49%;
+      }
+      ul .circle,
+      ul .circle1,
+      ul .circle2,
+      ul .circle3 {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      ul .circle {
+        left: calc(56.5% - 10px);
+        top: 35px;
+      }
+      ul .circle1 {
+        left: calc(69% - 10px);
+        top: 35px;
+      }
+      ul .circle2 {
+        left: calc(81.5% - 10px);
+        top: 35px;
+      }
+      ul .circle3 {
+        left: calc(94.2% - 10px);
+        top: 35px;
+      }
+      ul li:hover,
+      li:hover a {
+        color: green;
+        border-color: green;
+      }
+      ul li:hover + .cir {
+        background-color: green;}
+        .cont {
+        width: 50%;
+        height: 60vh;
+        margin-left: 50em;
+        margin-top: 5em;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        color: white;
+        display: flex;
+        line-height: 1.5;
+        position: relative;}
+        .cir_1{
+        position: absolute;
+        top: -0.4em;
+      }
+      .cir_2{
+        position: absolute;
+        top: -0.4em;
+        right: 0;
+      }
+      .about{
+  color:white;
+  width:750px;
+  height: 270px;
+  background-color: rgba(16, 22, 33, 0.281);
+  /* border: 2px solid red; */
+  margin-left:100px;
+  
+  padding:10px 35px 15px 30px;
+  vertical-align: auto;
+  text-align:justify;
+  margin-top:100px;
+  margin-right:-50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  }
+  
+  .name{
+  font-size: 25px;
+  }
+  .content{
+    width:650px;
+    line-height: 25px;
+  }
+  span{
+    color:green;
+  }
+  
+      .cir_3{
+        position: absolute;
+        left: 43%;
+        bottom: 25.5%;
+        font-size: 100px;
+      
+      }
+      .cir_4{
+        position: absolute;
+        bottom:25.5% ;
+        right: 7%;}
+        
+      </style>
+        </head>
+<body>
+    <div class="section_1">
+      <div class="nav">
+        <div class="head">
+          <h1>Astro motion</h1>
+        </div>
+        <div class="list">
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <div class="cir circle"></div>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <div class="cir circle1"></div>
+            <li><a href="./about.html">About</a></li>
+            <div class="cir circle2"></div>
+            <li><a href="./contacts.html">Contact</a></li>
+            <div class="cir circle3"></div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cont">
+        <div class="cir cir_1"></div>
+        <div class="cir cir_2"></div>
+        <div class ="text">
+          <div class="about">
+            <p class="name">About Our Company</p>
+            <p class="content">You are <span>allowed</span>to use Astro Motion HTMl Template for your websites.You are not allowed to re-distribute this template ZIP file on way Free CSS template collection website.illegal redistribution is strongly prohibited.</p>
+            <p class ="content">praesent auctor rhoncus arcu, vitae blandit est vestibulum sit amet.integer eart turpis, vestibulum pelletesque aliquam ultricies,finibus nes dui.donec bibendum enim mi,at tristique leo feugiat at.thank you visiting Template Mo.</p>
+          </div>
+        </div>
+       </div> 
+        <div class="cir cir_3"></div>
+        <div class="cir cir_4"></div>
+        <div class="data">
+        </div>  
+       
+</body>
+</html> 
